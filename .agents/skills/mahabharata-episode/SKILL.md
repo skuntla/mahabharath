@@ -15,6 +15,16 @@ Use when asked for "Day N", "next story", "Day N images", character design, revi
 4. This skill's `references/PRODUCTION-CHECKLIST.md`.
 Do not infer episode completion from a README; verify required files and manifest.
 
+## Two-stage workflow (mandatory)
+
+**Stage A — Story Director (default for a new day):** Read continuity, identify cast, draft the story and decide the *story-driven* number of scenes (usually 5–10, not fixed at eight). Write `story.md`, `plan.md`, and `scenes.json` with one detailed prompt per scene. No image generation in this stage. Present story, scene list, new-character approvals, and a copyable next-command prompt. Wait for approval.
+
+**Stage B — Illustration Director (only on explicit scene request):** Generate exactly **ONE** full-frame 3:4 illustration per tool invocation/request, from one scene entry in `scenes.json`. Never ask the generator to illustrate all scenes, a storyboard, grid, comic, contact sheet, or captioned panels. Include a negative instruction: 'single full-bleed illustration; no text, labels, numbers, frames, borders, inset panels, split screen, collage, or montage.' Check the image against the approved references and scene; record its status and only then proceed to another scene on user request. If generated image is wrong, don't silently generate another storyboard. Don't promise automatic binary GitHub upload without confirmed access to the image bytes and successful commit.
+
+**New-character gate:** If Stage A identifies a new important character, create their profile and reference-sheet prompt and ask approval of the resulting reference sheet before Stage B scenes featuring them. Background unnamed extras are exempt.
+
+**Reusable user commands:** 'Plan Mahabharata Day N' (Stage A), 'Approve Mahabharata Day N story and scenes', 'Illustrate Mahabharata Day N Scene M' (Stage B), 'Resume Mahabharata Day N', and 'Publish Mahabharata Day N' (only after verification).
+
 ## Episode planning
 - Determine day number from the request. If "next", find latest approved/completed day; if ambiguous, ask.
 - Establish exact narrative boundary: previous ending, today's single main event, tomorrow's teaser.
@@ -37,10 +47,10 @@ Do not infer episode completion from a README; verify required files and manifes
 - Ask for approval if user wants story-first review; otherwise proceed to visuals only if all cast references are approved.
 
 ## Visual production
-- Produce a scene list of ~8 meaningful story beats (more/fewer if story warrants). Each scene has unique composition, location, cast, emotion, action, lighting, and camera framing.
+- Produce a story-driven scene list of meaningful story beats (often 5–10). Each scene has unique composition, location, cast, emotion, action, lighting, and camera framing.
 - 3:4 portrait, one distinct illustration per file, no collage, no text/watermark. Warm premium cinematic animated Indian mythology storybook style, believable anatomy.
 - Load relevant approved image references as actual images whenever the tool permits; if not possible, disclose limitation and ask for the image rather than promising exact consistency.
-- Create `cover.png` and `images/01.png` … `images/08.png` (or actual count), avoiding redundant regenerations.
+- Create `cover.png` and `images/01.png` … up to the approved scene count, avoiding redundant regenerations. Generate each image independently.
 - Inspect every image: identity, wardrobe, scene fidelity, anatomy, no text, framing, safety, duplicate detection. Regenerate only failed images.
 - Do not mark images complete until actual image files are committed.
 
