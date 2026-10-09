@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "day": 0,
+  "title": "",
+  "status": "planned",
+  "story_scope": "",
+  "previous_day": null,
+  "next_day": null,
+  "cast": [
+    {
+      "slug": "",
+      "profile_path": "",
+      "reference_image_path": "",
+      "reference_status": "pending_approval"
+    }
+  ],
+  "story": {
+    "path": "story.md",
+    "approved": false
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "description": "",
+      "image_path": "images/01.png",
+      "status": "planned"
+    }
+  ],
+  "cover": {
+    "path": "cover.png",
+    "status": "planned"
+  },
+  "approvals": {
+    "characters": [],
+    "story": false,
+    "images": false
+  },
+  "issues": [],
+  "last_updated": ""
+}
