@@ -1,0 +1,78 @@
+{
+  "day": 1,
+  "title": "The Kingdom of Hastinapura and King Shantanu",
+  "reference_image": "characters/file_00000000133081f583355f4f792cfb0d.png",
+  "approval_status": "awaiting_story_and_scene_approval",
+  "global_instructions": "Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+  "cover": {
+    "description": "Shantanu with Hastinapura behind him and distant river",
+    "prompt": "Single 3:4 portrait book cover ART ONLY, no title text: Shantanu matching approved character sheet, standing with his grand golden Hastinapura palace in the distance and a sunlit river hinted beyond, cinematic dawn, gentle confident expression. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+    "status": "planned"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "title": "Hastinapura awakens",
+      "framing": "aerial wide",
+      "prompt": "High aerial establishing view of ancient Hastinapura at sunrise: grand sandstone palace towers, courtyards, bustling markets, peacocks and gardens, broad river beyond the city, golden morning haze. No main character; expansive architecture dominates. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/01.png",
+      "status": "planned"
+    },
+    {
+      "number": 2,
+      "title": "The kind king",
+      "framing": "medium portrait",
+      "prompt": "King Shantanu alone in a palace garden, medium regal portrait, gentle thoughtful smile, lush greenery and golden palace arches. Match approved reference exactly: wavy shoulder-length dark hair, neat beard, blue-jeweled golden crown, royal blue-and-gold garments, red drape. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/02.png",
+      "status": "planned"
+    },
+    {
+      "number": 3,
+      "title": "He listens",
+      "framing": "group medium",
+      "prompt": "King Shantanu warmly listening to two farmers and a traveler in a palace courtyard, eye-level storytelling composition, respectful expressions, one child waving in the distance. Same approved Shantanu face, crown and blue/gold/red outfit; no throne. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/03.png",
+      "status": "planned"
+    },
+    {
+      "number": 4,
+      "title": "The journey begins",
+      "framing": "wide motion",
+      "prompt": "Wide dynamic three-quarter view of Shantanu on a white horse passing through Hastinapura's ornate city gates toward a leafy forest road, sunlit dust and trees, palace receding behind him. Same approved Shantanu identity and clothes. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/04.png",
+      "status": "planned"
+    },
+    {
+      "number": 5,
+      "title": "Quiet forest",
+      "framing": "environment wide",
+      "prompt": "Shantanu and his white horse small in a vast green forest clearing; a deer drinks from a pool, butterflies above wildflowers, sunbeams through tall trees. Quiet contemplative mood, distant wide framing. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/05.png",
+      "status": "planned"
+    },
+    {
+      "number": 6,
+      "title": "The river calls",
+      "framing": "river landscape",
+      "prompt": "Panoramic River Ganga at late golden hour, shimmering water and smooth stones, trees opening from forest path; Shantanu seen arriving at edge of frame, horse nearby. Peaceful river dominates composition. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/06.png",
+      "status": "planned"
+    },
+    {
+      "number": 7,
+      "title": "A mysterious woman",
+      "framing": "full-body portrait",
+      "prompt": "Ganga alone on riverbank, three-quarter full-body portrait, facing sparkling river with gentle enigmatic expression. Match approved reference: flowing dark hair with white flower, blue-and-white sari, delicate blue-gold jewelry, subtle waterlike glow. Do not identify her with any lettering. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/07.png",
+      "status": "planned"
+    },
+    {
+      "number": 8,
+      "title": "Their eyes meet",
+      "framing": "wide two-shot",
+      "prompt": "Cinematic distant two-shot across a quiet riverbank: Shantanu stands under trees at left, Ganga turns toward him at right; eyes meet for first time, space between them, golden sunset reflecting on river. Exact approved Shantanu and Ganga faces and costumes. No conversation, vows, or other events. Create exactly ONE full-frame 3:4 portrait illustration depicting ONLY this scene. Premium warm cinematic Indian mythology animated storybook, natural believable proportions, expressive faces, detailed fabric and environment. Use actual approved master reference image characters/file_00000000133081f583355f4f792cfb0d.png if accessible. No text, letters, captions, numbers, speech bubbles, frames, borders, inset panels, split screen, storyboard, collage or montage.",
+      "output": "images/08.png",
+      "status": "planned"
+    }
+  ]
+}
