@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "day": 1,
+  "title": "The Kingdom of Hastinapura and King Shantanu",
+  "status": "story_draft",
+  "story_scope": "Introduction to Hastinapura and Shantanu; first glimpse of the mysterious woman",
+  "previous_day": null,
+  "next_day": 2,
+  "cast": [
+    {
+      "slug": "shantanu",
+      "profile_path": "characters/shantanu/profile.md",
+      "reference_image_path": "characters/file_00000000133081f583355f4f792cfb0d.png",
+      "reference_status": "approved"
+    },
+    {
+      "slug": "ganga",
+      "profile_path": "characters/ganga/profile.md",
+      "reference_image_path": "characters/file_00000000133081f583355f4f792cfb0d.png",
+      "reference_status": "approved"
+    }
+  ],
+  "story": {
+    "path": "story.md",
+    "approved": false
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "description": "Hastinapura city",
+      "image_path": "images/01.png",
+      "status": "planned"
+    },
+    {
+      "number": 2,
+      "description": "Shantanu portrait",
+      "image_path": "images/02.png",
+      "status": "planned"
+    },
+    {
+      "number": 3,
+      "description": "Shantanu listens to people",
+      "image_path": "images/03.png",
+      "status": "planned"
+    },
+    {
+      "number": 4,
+      "description": "Forest departure",
+      "image_path": "images/04.png",
+      "status": "planned"
+    },
+    {
+      "number": 5,
+      "description": "Forest journey",
+      "image_path": "images/05.png",
+      "status": "planned"
+    },
+    {
+      "number": 6,
+      "description": "River panorama",
+      "image_path": "images/06.png",
+      "status": "planned"
+    },
+    {
+      "number": 7,
+      "description": "Mysterious woman",
+      "image_path": "images/07.png",
+      "status": "planned"
+    },
+    {
+      "number": 8,
+      "description": "First meeting",
+      "image_path": "images/08.png",
+      "status": "planned"
+    }
+  ],
+  "cover": {
+    "path": "cover.png",
+    "status": "planned"
+  },
+  "approvals": {
+    "characters": [
+      "shantanu",
+      "ganga"
+    ],
+    "story": false,
+    "images": false
+  },
+  "issues": [
+    "Story awaiting review",
+    "Illustrations not yet generated or committed"
+  ],
+  "last_updated": "2026-10-08"
+}
