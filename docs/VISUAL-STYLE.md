@@ -1,4 +1,4 @@
-# Visual Style — v1 (provisional)
+# Visual Style — v1 (approved visual direction)
 
 Premium Indian mythology animated storybook, family-friendly, colorful, cinematic warm lighting, expressive natural faces, believable anatomy, detailed historically inspired clothing and environments. Not photorealistic; not chibi or exaggerated caricature.
 
@@ -10,4 +10,4 @@ Premium Indian mythology animated storybook, family-friendly, colorful, cinemati
 - Verify costume/face continuity before acceptance.
 
 ## Reference status
-A four-character draft sheet was generated in chat (Shantanu, Ganga, young Devavrata, adult Bhishma). **It is not yet committed to this repository.** Do not treat textual profiles as equivalent to that source image. Upload original reference artwork under characters/references/ and mark approval status before image production.
+The user approved the four-character draft reference sheet in chat on 2026-10-08 (Shantanu, Ganga, young Devavrata, adult Bhishma). **The original binary image is not yet committed to this repository.** Do not treat the textual profiles as a substitute for the original image. The image must be uploaded to `characters/references/master-character-sheet.png` and checked before production. Preserve the approved visual direction.
