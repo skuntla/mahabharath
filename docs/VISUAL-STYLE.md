@@ -10,4 +10,4 @@ Premium Indian mythology animated storybook, family-friendly, colorful, cinemati
 - Verify costume/face continuity before acceptance.
 
 ## Reference status
-The user approved the four-character draft reference sheet in chat on 2026-10-08 (Shantanu, Ganga, young Devavrata, adult Bhishma). **The original binary image is not yet committed to this repository.** Do not treat the textual profiles as a substitute for the original image. The image must be uploaded to `characters/references/master-character-sheet.png` and checked before production. Preserve the approved visual direction.
+The user approved the four-character draft reference sheet in chat on 2026-10-08 (Shantanu, Ganga, young Devavrata, adult Bhishma). **The original character sheet is committed and verified at [`characters/file_00000000133081f583355f4f792cfb0d.png`](../characters/file_00000000133081f583355f4f792cfb0d.png).** This is the canonical approved master reference; retrieve this image for future illustrations whenever the image-generation workflow supports supplying references. Do not substitute text-only profiles for the image. Preserve the approved visual direction.
