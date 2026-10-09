@@ -19,11 +19,11 @@ Do not infer episode completion from a README; verify required files and manifes
 
 **Stage A — Story Director (default for a new day):** Read continuity, identify cast, draft the story and decide the *story-driven* number of scenes (usually 5–10, not fixed at eight). Write `story.md`, `plan.md`, and `scenes.json` with one detailed prompt per scene. No image generation in this stage. Present story, scene list, new-character approvals, and a copyable next-command prompt. Wait for approval.
 
-**Stage B — Illustration Director (only on explicit scene request):** Generate exactly **ONE** full-frame 3:4 illustration per tool invocation/request, from one scene entry in `scenes.json`. Never ask the generator to illustrate all scenes, a storyboard, grid, comic, contact sheet, or captioned panels. Include a negative instruction: 'single full-bleed illustration; no text, labels, numbers, frames, borders, inset panels, split screen, collage, or montage.' Check the image against the approved references and scene; record its status and only then proceed to another scene on user request. If generated image is wrong, don't silently generate another storyboard. Don't promise automatic binary GitHub upload without confirmed access to the image bytes and successful commit.
+**Stage B — Illustration Director (one user approval for all scenes):** On 'Approved. Generate all Day N illustrations', process the approved scenes sequentially without requiring the user to send one message per scene. For each image-generation operation, request exactly **ONE** full-frame 3:4 illustration from exactly **ONE** scene entry in `scenes.json`; never combine scene prompts in a single image request. Do not ask the generator to make a storyboard, grid, comic, contact sheet, captioned panels, or multi-scene montage. Include: 'single full-bleed illustration; no text, labels, numbers, frames, borders, inset panels, split screen, collage, or montage.' Check each image against approved references and its scene before advancing; retry only the failed image when appropriate. Generate a separate cover only when planned. Continue through the remaining scenes within the same user request **when tool availability permits**. If tool limits, a failed call, or inability to supply essential character reference images prevents completion, stop, record the exact stage, and tell the user what remains. Never claim all images were generated or uploaded when they were not. Do not promise automatic binary GitHub upload without confirmed access to image bytes and a successful commit.
 
 **New-character gate:** If Stage A identifies a new important character, create their profile and reference-sheet prompt and ask approval of the resulting reference sheet before Stage B scenes featuring them. Background unnamed extras are exempt.
 
-**Reusable user commands:** 'Plan Mahabharata Day N' (Stage A), 'Approve Mahabharata Day N story and scenes', 'Illustrate Mahabharata Day N Scene M' (Stage B), 'Resume Mahabharata Day N', and 'Publish Mahabharata Day N' (only after verification).
+**Primary two-message user flow:** (1) 'Plan Mahabharata Day N' → present story, cast, scene plan and any new-character approval requirements; (2) 'Approved. Generate all Day N illustrations' → generate each scene independently in sequence, review, save and publish what is technically possible. Optional commands: 'Illustrate Mahabharata Day N Scene M' for one-scene corrections, 'Resume Mahabharata Day N' for interruptions, and 'Publish Mahabharata Day N' after assets exist. Additional user approval is required only for important new characters or requested story changes.
 
 ## Episode planning
 - Determine day number from the request. If "next", find latest approved/completed day; if ambiguous, ask.
@@ -44,7 +44,7 @@ Do not infer episode completion from a README; verify required files and manifes
 - Draft `episodes/day-NNN/story.md`: title, 450–650 word target / ~5–7 minutes spoken (adjust naturally), one principal event, vivid age-appropriate narration, clear emotional stakes, no graphic violence, one nuanced moral, two open-ended reasoning questions, next-day teaser.
 - Avoid revealing future plot prematurely; do not introduce characters before their narrative entrance.
 - Review for accuracy, timeline, name spelling, continuity, accessible vocabulary, pacing and respectful cultural framing.
-- Ask for approval if user wants story-first review; otherwise proceed to visuals only if all cast references are approved.
+- Always pause for story and scene-plan approval before Stage B. Do not start illustrations during Stage A.
 
 ## Visual production
 - Produce a story-driven scene list of meaningful story beats (often 5–10). Each scene has unique composition, location, cast, emotion, action, lighting, and camera framing.
@@ -63,7 +63,7 @@ Do not infer episode completion from a README; verify required files and manifes
 - Return concise summary of what was completed, links, what needs approval, and next action.
 
 ## Recovery
-If a day already exists, inspect its manifest and assets and resume from the first incomplete stage. Preserve approved story and images. Do not regenerate all eight merely because one failed.
+If a day already exists, inspect its manifest and assets and resume from the first incomplete stage. Preserve approved story and images. Do not regenerate every scene merely because one failed.
 
 ## Important limitations
 GitHub can store PNG/JPG/WebP, but retrieval of a GitHub image by a text connector does not guarantee it can be passed to the image generator. If the image is inaccessible in the generation context, ask the user to attach the approved image or use a supported retrieval path. Approval of a visual direction is not approval of every new character or scene.
